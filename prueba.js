@@ -1,3 +1,5 @@
-let frase = "Hola mundo!";
+const prompt = require("prompt-sync")({ sigint: true })
 
-console.log(frase);
+let nombre = prompt("Ingrese su nombre: ");
+console.log(`Hola ${nombre}!!!` );
+
